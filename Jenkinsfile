@@ -9,4 +9,9 @@ node {
         env.imageName = "${registryHost}${appname}${tag}"
         env.BUILD_TAG=tag
     }
+
+    stage ('Build') {
+        sh "docker build -t flask-alpine:1 ."
+    }
 }
+
