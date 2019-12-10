@@ -2,4 +2,4 @@ Flask
 xmlrunner
 pytest
 coverage
-pycurl
+minipoker
