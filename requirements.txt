@@ -1,6 +1,4 @@
 Flask
 xmlrunner
 pytest
-#coverage
-os
-date
+coverage
