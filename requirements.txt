@@ -2,6 +2,5 @@ Flask
 xmlrunner
 pytest
 coverage
-pycurl
 os
 date
