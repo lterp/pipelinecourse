@@ -9,5 +9,4 @@ node {
         env.imageName = "${registryHost}${appname}${tag}"
         env.BUILD_TAG=tag
     }
-
-    
+}
